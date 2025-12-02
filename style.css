@@ -1,0 +1,158 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #f6faf7;
+}
+
+/* Màu chủ đạo */
+:root {
+    --main: #2E8B57;      /* xanh lá sức khỏe */
+    --light: #E8F5EC;     /* xanh nhạt */
+    --dark: #1f5f3c;      /* xanh đậm */
+}
+
+/* ===========================
+   NAVIGATION
+=========================== */
+
+.w3-top .w3-bar {
+    background-color: var(--main) !important;
+}
+
+.w3-top .w3-bar .w3-button {
+    color: white !important;
+    font-weight: bold;
+}
+
+#navDemo {
+    background-color: var(--main) !important;
+}
+
+/* ===========================
+   SLIDESHOW
+=========================== */
+
+.mySlides img {
+    filter: brightness(75%);
+}
+
+.w3-display-bottommiddle h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.w3-display-bottommiddle p {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* ===========================
+   GIỚI THIỆU
+=========================== */
+
+#gioithieu h2 {
+    color: var(--dark);
+    font-weight: 900;
+}
+
+#gioithieu p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* ===========================
+   CHỦ ĐỀ (CARD)
+=========================== */
+
+.w3-container.w3-white {
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+
+.w3-container.w3-white p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main);
+}
+
+.w3-container.w3-white img, 
+.w3-third img {
+    border-radius: 6px;
+}
+.intro-section {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto; /* canh giữa khối */
+    padding: 20px 10px;
+}
+
+/* Tiêu đề đậm và đẹp */
+.intro-title {
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--dark);
+    letter-spacing: 2px;
+}
+
+/* Subtitle nhỏ hơn và nhạt màu */
+.intro-sub {
+    font-style: italic;
+    color: #777;
+    margin-top: -8px;
+}
+
+/* Đoạn mô tả */
+.intro-desc {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #333;
+}
+/* ===========================
+   CONTACT
+=========================== */
+
+#contact h2 {
+    color: var(--dark);
+}
+
+#contact form input,
+#contact form textarea {
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc !important;
+}
+
+#contact button {
+    background-color: var(--main) !important;
+}
+
+#contact button:hover {
+    background-color: var(--dark) !important;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer {
+    background: var(--main) !important;
+    color: white;
+    font-weight: bold;
+}
+
+/* ===========================
+   RESPONSIVE CUSTOM
+=========================== */
+
+@media (max-width: 600px) {
+    .w3-display-bottommiddle h3 {
+        font-size: 20px;
+    }
+
+    .w3-display-bottommiddle p {
+        font-size: 14px;
+    }
+
+    #gioithieu p {
+        font-size: 16px;
+    }
+}

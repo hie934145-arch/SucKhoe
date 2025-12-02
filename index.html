@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SỐNG KHỎE MỖI NGÀY</title>
+
+<!-- W3.CSS & Fonts -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body {font-family: "Lato", sans-serif;}
+.mySlides {display:none;}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+<div class="w3-bar w3-green w3-card">
+<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+onclick="toggleNav()"><i class="fa fa-bars"></i></a>
+
+<a href="#home" class="w3-bar-item w3-button w3-padding-large">TRANG CHỦ</a>
+<a href="#gioithieu" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Giới thiệu</a>
+<a href="#noidung" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Chủ đề</a>
+<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Liên hệ</a>
+</div>
+</div>
+
+<!-- Navbar small screens -->
+<div id="navDemo" class="w3-bar-block w3-green w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+<a href="#gioithieu" class="w3-bar-item w3-button w3-padding-large" onclick="toggleNav()">Giới thiệu</a>
+<a href="#noidung" class="w3-bar-item w3-button w3-padding-large" onclick="toggleNav()">Chủ đề</a>
+<a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="toggleNav()">Liên hệ</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-content" style="max-width:2000px; margin-top:46px">
+
+<!-- Slideshow -->
+<div class="mySlides w3-display-container w3-center">
+<img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b" style="width:100%">
+<div class="w3-display-bottommiddle w3-container w3-padding w3-text-white">
+<h3>Ăn uống lành mạnh</h3>
+<p><b>Dinh dưỡng tốt tạo nền tảng cho sức khỏe!</b></p>
+</div>
+</div>
+
+<div class="mySlides w3-display-container w3-center">
+<img src="https://images.unsplash.com/photo-1576678927484-cc907957088c" style="width:100%">
+<div class="w3-display-bottommiddle w3-container w3-padding w3-text-white">
+<h3>Luyện tập thể thao</h3>
+<p><b>Tập luyện giúp cơ thể dẻo dai và đầy năng lượng.</b></p>
+</div>
+</div>
+
+<div class="mySlides w3-display-container w3-center">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" style="width:100%">
+<div class="w3-display-bottommiddle w3-container w3-padding w3-text-white">
+<h3>Giấc ngủ chất lượng</h3>
+<p><b>Ngủ ngon giúp phục hồi sức khỏe và tinh thần.</b></p>
+</div>
+</div>
+
+<!-- Giới thiệu -->
+<div class="intro-section">
+<h2 class="intro-title">SỐNG KHỎE MỖI NGÀY</h2>
+<p class="intro-sub">Healthy Lifestyle</p>
+<p class="intro-desc">
+“Sống khỏe” không chỉ là ăn uống điều độ mà còn là sự kết hợp giữa dinh dưỡng, vận động,
+giấc ngủ, tinh thần và thói quen sống tích cực. Trang web này cung cấp những kiến thức cơ bản
+giúp bạn xây dựng lối sống khoa học, phù hợp với mọi lứa tuổi.
+</p>
+</div>
+
+<!-- Chủ đề -->
+<div id="noidung" class="w3-black">
+<div class="w3-container w3-content w3-padding-64" style="max-width:850px">
+<h2 class="w3-wide w3-center">CÁC CHỦ ĐỀ CHÍNH</h2>
+<p class="w3-opacity w3-center"><i>Những yếu tố quan trọng của lối sống khỏe mạnh</i></p><br>
+
+<div class="w3-row-padding w3-padding-32">
+
+<!-- Dinh dưỡng -->
+<div class="w3-third w3-margin-bottom">
+<img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" style="width:100%">
+<div class="w3-container w3-white">
+<p><b>Dinh dưỡng</b></p>
+<p class="w3-opacity">Ăn cân bằng</p>
+<p>Trái cây, rau củ, chất đạm là nền tảng cho cơ thể khỏe mạnh.</p>
+</div>
+</div>
+
+<!-- Tập luyện -->
+<div class="w3-third w3-margin-bottom">
+<img src="4-tap-the-duc-shutterstock-7470.webp" style="width:100%">
+<div class="w3-container w3-white">
+<p><b>Thể thao</b></p>
+<p class="w3-opacity">Tập luyện mỗi ngày</p>
+<p>Chỉ 20–30 phút vận động đã giúp tăng sức bền và giảm stress.</p>
+</div>
+</div>
+
+<!-- Giấc ngủ -->
+<div class="w3-third w3-margin-bottom">
+<img src="download.png" style="width:100%">
+<div class="w3-container w3-white">
+<p><b>Giấc ngủ</b></p>
+<p class="w3-opacity">Ngủ đủ 7–8 giờ</p>
+<p>Giấc ngủ sâu giúp cơ thể hồi phục và cải thiện trí nhớ.</p>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- Contact -->
+<div id="contact" class="w3-container w3-content w3-padding-64" style="max-width:850px">
+<h2 class="w3-wide w3-center">LIÊN HỆ</h2>
+<p class="w3-opacity w3-center"><i>Gửi câu hỏi cho chúng tôi!</i></p>
+
+<div class="w3-row w3-padding-32">
+<div class="w3-col m6 w3-large">
+<i class="fa fa-map-marker fa-fw w3-margin-right"></i> Hồ Chí Minh, Việt Nam<br>
+<i class="fa fa-phone fa-fw w3-margin-right"></i> +84 900 123 456<br>
+<i class="fa fa-envelope fa-fw w3-margin-right"></i> info@songkhoe.com<br>
+</div>
+
+<div class="w3-col m6">
+<form action="#">
+<input class="w3-input w3-border" type="text" placeholder="Tên" required>
+<input class="w3-input w3-border" type="email" placeholder="Email" required>
+<textarea class="w3-input w3-border" placeholder="Nội dung" required></textarea>
+<button class="w3-button w3-green w3-section w3-right">Gửi</button>
+</form>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-green w3-padding-16">
+<p>© 2025 Sống Khỏe – Thiết kế bởi Nhóm 12T2</p>
+</footer>
+
+<!-- JS -->
+<script>
+function toggleNav() {
+var x = document.getElementById("navDemo");
+if (x.className.indexOf("w3-show") == -1)
+x.className += " w3-show";
+else
+x.className = x.className.replace(" w3-show", "");
+}
+
+// Slideshow tự chạy
+var slideIndex = 0;
+carousel();
+function carousel() {
+var i;
+var x = document.getElementsByClassName("mySlides");
+for (i = 0; i < x.length; i++) x[i].style.display = "none";
+slideIndex++;
+if (slideIndex > x.length) slideIndex = 1;
+x[slideIndex-1].style.display = "block";
+setTimeout(carousel, 4000);
+}
+</script>
+
+</body>
+</html>
